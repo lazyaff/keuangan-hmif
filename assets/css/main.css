@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(213, 213, 231);
+
+}
+
+@font-face {
+    font-family: "myfont";
+    src: url("../css/margin.woff") format("woff");
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-family: "myfont";
+    font-size: 40px;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar button {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.navbar button:hover {
+    color: rgb(98, 183, 240);
+    border: 1px solid rgb(98, 183, 240);
+}
+
+.navbar li {
+    margin: auto 10px;
+    font-size: 17px;
+}
+
+.navbar-nav a {
+    display: block;
+    color: #fafafa;
+}
+
+.navbar-nav a:hover {
+    color: rgb(98, 183, 240);
+
+}
+
+.dropdown-menu, .dropdown-item:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.box {
+    background-color: white;
+    border-top: 5px solid rgb(98, 183, 240);
+    border-radius: 5px;
+}
+
+.box-title {
+    padding: 30px;
+    text-align: center;
+}
+
+.box-body {
+    padding: 30px;
+    padding-top: 0px;
+}
+
+thead {
+    text-align: center;
+}
+
+.modal-header {
+    border-bottom: none;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.modal-header .modal-icon {
+    background-color: rgba(255, 0, 0, 1);
+    border: 7px solid rgb(245, 165, 165);
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    padding: 3px 0;
+}
+
+.modal-header .modal-icon i {
+    color: #fff;
+    vertical-align: middle;
+    font-size: 70px;
+}
+
+.modal-body p {
+    font-size: 20px;
+}
+
+.modal-footer {
+    padding-bottom: 30px;
+    border-top: none;
+}
+
+footer {
+    background-color: #000000;
+    border-top: 5px solid rgb(98, 183, 240);
+}
+
+footer .social-links {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+footer .social-links a {
+    font-size: 16px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+footer .social-links a:hover {
+    color: rgb(98, 183, 240);
+    border: 1px solid rgb(98, 183, 240);
+}
+
+footer .copyright {
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+footer .copyright a {
+    color: #ffffff;
+}
+
+footer .copyright a:hover {
+    color: rgb(98, 183, 240);
+}
+
